@@ -12,5 +12,5 @@ jobs:
       - name: Install NPM dependencies
         run: npm install
 
-      - name: Build project assets
-        run: npm run build
+      - name: ESLint project assets
+        run: npm run lint
